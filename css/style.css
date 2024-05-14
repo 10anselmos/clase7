@@ -6,7 +6,6 @@
 body{
     margin: 16px;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 
@@ -84,40 +83,7 @@ body{
 .contenedorcolumnas img{
     width: 150px;
 }
-/*.contenedorcolumnas img uno{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 4;
-}
-.contenedorcolumnas img dos{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}*/
 
-
-
-
-/*@media only screen and (min-width: 0px) and (max-width: 320px) {
-    .contenedor {
-        background-color: aquamarine;
-        width: 100%;
-        padding-left: 23px;
-        flex-direction: column-reverse;
-    }
-    .cajas{
-        width: 100%;
-    }
-    .galeria{
-    grid-template-columns:none;        
-    }
-.imgprincipal img {
-    width: auto;
-    }
-}
-*/
 @media only screen and (max-width: 320px) {}
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
@@ -131,6 +97,9 @@ body{
     .contenedorcolumnas{
     grid-template-columns: repeat(3, 1fr) ;
     }
+
+
+
     .contenedor {
         background-color: aquamarine;
         width: 500px;
@@ -150,3 +119,5 @@ body{
 }
         
 }
+
+
